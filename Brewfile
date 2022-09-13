@@ -56,36 +56,16 @@ brew "ghq"
 brew "kubectl"
 brew "emacs"
 brew "nmap"
-brew "fork-cleaner"
-brew "whalebrew"
-brew "helm"
 brew "gh"
-brew "microplane"
 brew "jq"
 
 tap "txn2/tap"
 brew "kubefwd"
-
-tap "sachaos/todoist"
-brew "todoist"
-
-tap "bufbuild/buf"
-brew "buf"
 brew "clang-format"
 
-# Pulumi ❤️
-tap "pulumi/tap"
-brew "pulumi"
-brew "crd2pulumi"
-brew "kube2pulumi"
-brew "pulumictl"
-brew "tf2pulumi"
-
-# Taskfile.dev
-tap "go-task/tap"
-brew "go-task"
-
 # Tooling
+tap "sachaos/todoist"
+brew "todoist"
 cask "google-chrome"
 cask "google-drive-file-stream"
 cask "adobe-creative-cloud"
@@ -95,23 +75,10 @@ cask "iterm2"
 cask "spotify"
 cask "memory"
 cask "slack"
-cask "docker"
-cask "postman"
 cask "sonos"
-cask "tunnelblick"
 cask "drawio"
 cask "figma"
 cask "discord"
 
 # Freetime
 cask "steam"
-
-# Taskfile
-tap "go-task/tap"
-brew "go-task"
-
-# My tools
-brew "cobraz/tools/trippl-timely"
-
-# Mac Application
-mas "gifski", id: 1351639930
